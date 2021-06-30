@@ -68,5 +68,24 @@ li {
     width: 25%;
 }
 
+.hero {
+    text-align: center;
+    background-image: url(../img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h2 {
+    font-size: 52px;
+}
 
 
