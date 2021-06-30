@@ -29,6 +29,10 @@ header {
     
 }
 
+.logo {
+    vertical-align: middle;
+}
+
 .main-nav {
     margin: 10px 200px;
 }
@@ -40,6 +44,9 @@ li {
 .btn {
     padding: 10px;
     border-radius: 20px;
+}
+
+.btn-1 {
     background-color: white;
 }
 
