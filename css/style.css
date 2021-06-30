@@ -4,9 +4,44 @@
     box-sizing: border-box;
 }
 
-.clearfix::after {
+/* .clearfix::after {
     content: "";
     display: table;
     clear: both;
+} */
+
+header {
+    background-color: #3161e0;
+
 }
+
+.top-bar {
+    text-align: center;
+}
+
+.logo, .main-nav, .main-nav li, .main-nav li a {
+    display: inline-block;
+}
+
+.main-nav li a {;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main-nav {
+    margin: 10px 200px;
+}
+
+li {
+    padding: 20px
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
 
