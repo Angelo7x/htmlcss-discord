@@ -4,26 +4,28 @@
     box-sizing: border-box;
 }
 
-/* .clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
-} */
+}
 
 header {
     background-color: #3161e0;
 
 }
 
-.top-bar {
-    text-align: center;
+.container {
+    margin: 10px 120px;
+    display: inline-block;
+    width: 100%;
 }
 
 .logo, .main-nav, .main-nav li, .main-nav li a {
     display: inline-block;
 }
 
-.main-nav li a {;
+.main-nav li a {
     text-decoration: none;
     color: white;
     
@@ -31,10 +33,6 @@ header {
 
 .logo {
     vertical-align: middle;
-}
-
-.main-nav {
-    margin: 10px 200px;
 }
 
 li {
@@ -48,6 +46,26 @@ li {
 
 .btn-1 {
     background-color: white;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-left {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+.col-center {
+    width: 50%;
+    float: left;
+}
+
+.col-right {
+    float: right;
+    width: 25%;
 }
 
 
